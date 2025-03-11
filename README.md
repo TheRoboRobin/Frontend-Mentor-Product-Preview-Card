@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/screenshot.PNG)
 
 ### Links
 
-- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/qr-code-component-kSY9L23vv9)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/product-preview-card-component-LLCf8wjyko)
 - Live Site URL: [Github](https://github.com/TheRoboRobin/Frontend-Mentor-Product-Preview-Card)
 
 ## My process
