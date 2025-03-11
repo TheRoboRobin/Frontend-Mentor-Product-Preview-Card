@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,20 +28,28 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/qr-code-component-kSY9L23vv9)
+- Live Site URL: [Github](https://github.com/TheRoboRobin/Frontend-Mentor-Product-Preview-Card)
 
 ## My process
+
+It took me quite a while to figure out how to properly deploy and build the website for submission this time. Using sass created an issue by the fact my index wasn't in the root folder.
+
+First attempt was trying to rename public to docs. This didn't really work and created a huge mess. I ended up deleting and rebuilding the repository.
+
+Then I read around about Hugo. I couldn't get hugo to work how I wanted it to and so I eventually scrapped that.
+
+Finally after some more reading, I ended up altering the static html template for deployment from the public folder. This worked. Finally.
+
+I can see how this is going to become more complicated as my pages become larger.
+
+I built out things as normal. Outline, build html, then style. Everything was largely okay. Missed how I had named one class. So when I was trying to style the button icon in my nested css, it wasn't working. But I had just misnamed it. Proceeded as normal after that.
+
+I came back at this point to make it so different images were served based on the screen size. The issue was that I was having trouble remembering which version to use. And for a bit I was trying to do resolution switching instead of art direction. But once I caught that mistake, I figured it out quickly. Lots of absent minded mistakes today.
+
+My brain got scrambled a bit doing the media queries the other way with the mobile first but I got there eventually.
 
 ### Built with
 
@@ -53,59 +58,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Dart Sass
+- GitHub Workflows
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+The biggest thing I learned was how to create an action for github. It came very much in handy to make it so that it automatically creates the page from the public folder instead of the source.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Now that I've completed one project doing it, I hope that next time will be easier. I also want to continue to work on learning more about GitHub Workflows.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Daniel Jimenez Garcia](https://medium.com/@danieljimgarcia/publishing-static-sites-to-github-pages-using-github-actions-8040f57dfeaf) - Used to read up on the static site deployment actions.
+- GitHub's Static HTML Template
+- My package.json and project structure is adapted from [Stephanie Eckles](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)'s article on the setup.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Robin](https://github.com/TheRoboRobin)
+- Frontend Mentor - [@TheRoboRobin](https://www.frontendmentor.io/profile/TheRoboRobin)
